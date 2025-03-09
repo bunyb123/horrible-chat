@@ -1,0 +1,46 @@
+/*This will be the css stylesheet for the entry page*/
+
+body {
+  background-color: black;
+  color: black;
+  font-family: Verdana;
+}
+.container {
+  text-align: center;
+}
+.username {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  transform: translate(0,1000%);
+}
+ .banner {
+  margin-left: auto;
+  margin-right: auto;
+}
+.username-box {
+  position: absolute;
+  text-align: center;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 0);
+}
+.box {
+  text-align: center;
+}
+.message-container {
+  height: 80%;
+  width: 80%;
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightgrey;
+  overflow: scroll;
+}
+.textbox {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
